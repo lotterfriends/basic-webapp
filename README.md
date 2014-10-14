@@ -1,6 +1,6 @@
 #basic-webapp
 
-basic webapp with requirejs, grunt, fligh, sass, bower and bootstrap
+basic webapp with requirejs, jquery, grunt, fligh, sass, bower and bootstrap
 
 ## Quik start
 
@@ -8,7 +8,7 @@ basic webapp with requirejs, grunt, fligh, sass, bower and bootstrap
 $ npm install
 $ grunt
 ```
-open dest/index.html in browser
+open dist/index.html in browser
 
 ## License
 

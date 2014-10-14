@@ -1,6 +1,6 @@
 {
   "name": "basic-webapp",
-  "description": "basic webapp with requirejs, grunt, fligh, sass, bower and bootstrap",
+  "description": "basic webapp with requirejs, jquery, grunt, fligh, sass, bower and bootstrap",
   "version": "0.0.1",
   "homepage": "https://lottefriends.net",
   "repository": {

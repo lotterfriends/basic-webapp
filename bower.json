@@ -1,6 +1,6 @@
 {
   "name": "basic-webapp",
-  "description": "basic webapp with requirejs, grunt, fligh, sass, bower and bootstrap",
+  "description": "basic webapp with requirejs, jquery, grunt, fligh, sass, bower and bootstrap",
   "dependencies": {
     "jquery": "1.11.1",
     "requirejs": "2.1.15",
