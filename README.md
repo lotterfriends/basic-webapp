@@ -1,6 +1,6 @@
 #basic-webapp
 
-basic webapp with requirejs, grunt, fligh, sass, bower and bootstrap
+basic webapp with requirejs, jquery, grunt, fligh, sass, bower and bootstrap
 
 ## Quik start
 
