@@ -1,24 +1,25 @@
 {
-	"folders":
-	[
-		{
-			"follow_symlinks": true,
-			"path": ".",
-			"folder_exclude_patterns": ["dist", "build", "bower_components", "node_modules", ".sass-cache"],
-			"file_exclude_patterns": ["*.sublime*", "LICENSE", ".gitignore"]
-		}
-	],
-	"settings":
-	{
-		"tab_size": 2,
-		"translate_tabs_to_spaces": false,
-		"draw_white_space": "all"
-	},
-	"build_systems":
-	[
-		{
-			"name": "grunt",
-			"cmd": ["grunt"]
-		}
-	]
+  "build_systems":
+  [
+    {
+      "cmd":
+      [
+        "grunt"
+      ],
+      "name": "grunt"
+    }
+  ],
+  "folders":
+  [
+    {
+      "follow_symlinks": true,
+      "path": "."
+    }
+  ],
+  "settings":
+  {
+    "draw_white_space": "all",
+    "tab_size": 2,
+    "translate_tabs_to_spaces": false
+  }
 }

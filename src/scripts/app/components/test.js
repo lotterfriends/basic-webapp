@@ -2,26 +2,26 @@
 
 define(
 
-		'app/components/test',
+    'app/components/test',
 
-		[
-			'jquery',
-			'component'
-		],
+    [
+      'jquery',
+      'component'
+    ],
 
-		function($, defineComponent) {
+    function($, defineComponent) {
 
-			return defineComponent(test);
+      return defineComponent(test);
 
-			function test() {
+      function test() {
 
-				this.defaultAttrs({});
+        this.defaultAttrs({});
 
-				this.after('initialize', function() {
-					alert('hallo');
-					console.log($(window));
-				});
+        this.after('initialize', function() {
+          alert('hallo');
+          console.log($(window));
+        });
 
-			}
-		}
+      }
+    }
 );

@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build-pages', function() {
 
-  	var tasks = [],
+    var tasks = [],
       sync = {};
       
     var sync = {

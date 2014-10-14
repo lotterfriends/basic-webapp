@@ -2,16 +2,16 @@
 
 define(
 
-	[
-		'app/components/test'
-	],
+  [
+    'app/components/test'
+  ],
 
-	function(test) {
+  function(test) {
 
-		function initialize() {
-			test.attachTo(document);
-		}
+    function initialize() {
+      test.attachTo(document);
+    }
 
-		return initialize;
-	}
+    return initialize;
+  }
 );

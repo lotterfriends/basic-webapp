@@ -1,23 +1,23 @@
 requirejs.config({
-	baseUrl: 'scripts',
-	shim: {
-		'bootstrap': {
-			deps: ['jquery']
-		}
-	}
+  baseUrl: 'scripts',
+  shim: {
+    'bootstrap': {
+      deps: ['jquery']
+    }
+  }
 });
 
 require(
-	[
-		'debug'
-	],
+  [
+    'debug'
+  ],
 
-	function(debug) {
-		// debug.enable(true);
-		
-		require(['app/boot/page'], function(initialize) {
-			initialize();
-		});
+  function(debug) {
+    // debug.enable(true);
+    
+    require(['app/boot/page'], function(initialize) {
+      initialize();
+    });
 
-	}
+  }
 );
