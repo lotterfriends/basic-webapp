@@ -13,42 +13,42 @@ module.exports = function(grunt) {
             src: [
               '*.css', '*.map' 
             ],
-            dest: './dist/styles'
+            dest: './dist/public/styles'
           },
           {
             cwd: './build/scripts',
             src: [
               '**'
             ],
-            dest: './dist/scripts'
+            dest: './dist/public/scripts'
           },
           {
             cwd: './build/pages',
             src: [
               '*'
             ],
-            dest: './dist'
+            dest: './dist/pages'
           },
           {
             cwd: './bower_components/bootstrap/dist/fonts',
             src: [
               '*'
             ],
-            dest: './dist/fonts'
+            dest: './dist/public/fonts'
           },
           {
             cwd: './bower_components/bootstrap/dist/css',
             src: [
               '*.min.css', '*.map'
             ],
-            dest: './dist/styles'
+            dest: './dist/public/styles'
           },
           {
             cwd: './bower_components/bootstrap/dist/js',
             src: [
               '*.min.js'
             ],
-            dest: './dist/scripts'
+            dest: './dist/public/scripts'
           }
         ]
       }
