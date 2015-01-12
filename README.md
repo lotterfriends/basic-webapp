@@ -7,8 +7,11 @@ basic webapp with requirejs, jquery, grunt, fligh, sass, bower and bootstrap
 ```
 $ npm install
 $ grunt
+$ node server
 ```
-open dist/index.html in browser
+open http://localhost:3001 in browser
+
+
 
 ## License
 
